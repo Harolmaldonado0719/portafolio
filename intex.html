@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harol Daniel | Portafolio Backend</title>
+
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="bg-slate-900 text-gray-200 font-sans antialiased selection:bg-blue-500 selection:text-white">
+    <nav class="w-full bg-slate-900/95 fixed top-0 left-0 z-50 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 text-white font-bold text-xl tracking-wider">
+                    HD<span class="text-blue-500">.dev</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#sobre-mi" class="text-gray-300 hover:text-blue-400 transition-colors px-3 py-2 text-sm font-medium">Sobre Mí</a>
+                        <a href="#tecnologias" class="text-gray-300 hover:text-blue-400 transition-colors px-3 py-2 text-sm font-medium">Tecnologías</a>
+                        <a href="#proyectos" class="text-gray-300 hover:text-blue-400 transition-colors px-3 py-2 text-sm font-medium">Proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center pt-16 px-4">
+        <div class="text-center max-w-3xl flex flex-col items-center">
+            
+            <div class="relative w-40 h-40 md:w-48 md:h-48 mb-8 group">
+                <div class="absolute inset-0 bg-blue-500 rounded-full blur-md opacity-20 group-hover:opacity-40 transition-opacity duration-300"></div>
+                <img src="img/foto-perfil.jpg" alt="Harol Daniel" class="relative rounded-full w-full h-full object-cover border-4 border-slate-800 shadow-2xl">
+            </div>
+
+            <div class="inline-block bg-blue-500/10 border border-blue-500/30 rounded-full px-4 py-1 mb-6">
+                <span class="text-blue-400 text-sm font-semibold tracking-wide">🚀 Disponible para contrato de aprendizaje</span>
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 tracking-tight">
+                Harol Daniel <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Maldonado</span>
+            </h1>
+            
+            <p class="text-xl md:text-2xl text-slate-400 mb-8 font-light max-w-2xl text-center">
+                Tecnólogo en Análisis y Desarrollo de Software especializado en la creación de soluciones <strong class="text-slate-200 font-semibold">Backend</strong> eficientes y escalables.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center w-full">
+                <a href="#proyectos" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-1">
+                    Ver Proyectos
+                </a>
+                <a href="https://www.linkedin.com/in/harol-daniel-maldonado-arismendi-83047337a/" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold py-3 px-8 rounded-lg transition-all duration-300">
+                    Conectar en LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="py-20 px-4 bg-slate-800/30">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 text-center">
+                Sobre <span class="text-blue-400">Mí</span>
+            </h2>
+            
+            <div class="bg-slate-900 border border-slate-700/50 rounded-2xl p-8 shadow-xl">
+                <p class="text-slate-300 leading-relaxed mb-6 text-lg">
+                    Soy un Tecnólogo en formación con un perfil orientado a la ingeniería de software y la resolución de problemas complejos. Me destaco por mi pensamiento lógico estructurado, una alta <strong class="text-white">capacidad de aprendizaje rápido</strong> para dominar nuevas tecnologías y una mentalidad enfocada en la calidad y eficiencia del código en el entorno Backend.
+                </p>
+                <p class="text-slate-300 leading-relaxed text-lg">
+                    Soy una persona adaptable y con excelente disposición para el <strong class="text-white">trabajo en equipo</strong>. Estoy comprometido con la mejora continua mediante una <strong class="text-white">rutina diaria de autoaprendizaje</strong>, dedicando espacio a la investigación de nuevas metodologías y el estudio constante del idioma inglés como herramienta clave para la documentation técnica global.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
+                Mi Stack <span class="text-blue-400">Tecnológico</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <div class="bg-slate-800/50 border border-slate-700 rounded-xl p-6 text-center hover:border-orange-500 hover:bg-slate-800 transition-all duration-300 group">
+                    <i class="devicon-java-plain colored text-5xl mb-4 transform group-hover:scale-110 transition-transform block"></i>
+                    <h3 class="text-white font-semibold text-lg">Java</h3>
+                    <p class="text-sm text-slate-400 mt-2">Lógica, POO y Estructuras de Datos</p>
+                </div>
+
+                <div class="bg-slate-800/50 border border-slate-700 rounded-xl p-6 text-center hover:border-indigo-500 hover:bg-slate-800 transition-all duration-300 group">
+                    <i class="devicon-php-plain colored text-5xl mb-4 transform group-hover:scale-110 transition-transform block"></i>
+                    <h3 class="text-white font-semibold text-lg">PHP</h3>
+                    <p class="text-sm text-slate-400 mt-2">Arquitectura MVC</p>
+                </div>
+
+                <div class="bg-slate-800/50 border border-slate-700 rounded-xl p-6 text-center hover:border-cyan-500 hover:bg-slate-800 transition-all duration-300 group">
+                    <i class="devicon-mysql-original colored text-5xl mb-4 transform group-hover:scale-110 transition-transform block"></i>
+                    <h3 class="text-white font-semibold text-lg">MySQL & SQL</h3>
+                    <p class="text-sm text-slate-400 mt-2">Modelado relacional y consultas</p>
+                </div>
+
+                <div class="bg-slate-800/50 border border-green-500/30 rounded-xl p-6 text-center hover:border-green-500 hover:bg-slate-800 transition-all duration-300 group relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-green-600 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg tracking-wider">EN RUTA</div>
+                    <i class="devicon-spring-original colored text-5xl mb-4 transform group-hover:scale-110 transition-transform block mt-2"></i>
+                    <h3 class="text-white font-semibold text-lg">Spring Boot</h3>
+                    <p class="text-sm text-slate-400 mt-2">Próximo framework Backend</p>
+                </div>
+
+                <div class="bg-slate-800/50 border border-slate-700 rounded-xl p-6 text-center hover:border-orange-400 hover:bg-slate-800 transition-all duration-300 group flex flex-col items-center">
+                    <div class="flex gap-2 mb-4">
+                        <i class="devicon-html5-plain colored text-4xl transform group-hover:-translate-y-1 transition-transform"></i>
+                        <i class="devicon-css3-plain colored text-4xl transform group-hover:-translate-y-1 transition-transform delay-75"></i>
+                    </div>
+                    <h3 class="text-white font-semibold text-lg">HTML & CSS</h3>
+                    <p class="text-sm text-slate-400 mt-2">Estructura y estilos básicos</p>
+                </div>
+
+                <div class="bg-slate-800/50 border border-slate-700 rounded-xl p-6 text-center hover:border-white hover:bg-slate-800 transition-all duration-300 group flex flex-col items-center">
+                    <div class="flex gap-2 mb-4">
+                        <i class="devicon-git-plain colored text-4xl transform group-hover:scale-110 transition-transform"></i>
+                        <i class="devicon-github-original text-white text-4xl transform group-hover:scale-110 transition-transform delay-75"></i>
+                    </div>
+                    <h3 class="text-white font-semibold text-lg">Git & GitHub</h3>
+                    <p class="text-sm text-slate-400 mt-2">Gestión de código seguro</p>
+                </div>
+
+                <div class="bg-slate-800/50 border border-slate-700 rounded-xl p-6 text-center hover:border-blue-400 hover:bg-slate-800 transition-all duration-300 group">
+                    <div class="flex justify-center gap-3 mb-4">
+                        <i class="devicon-vscode-plain colored text-3xl"></i>
+                        <i class="devicon-apache-plain colored text-3xl"></i>
+                    </div>
+                    <h3 class="text-white font-semibold text-lg">Entornos / Herramientas</h3>
+                    <p class="text-sm text-slate-400 mt-2">VS Code, NetBeans, XAMPP</p>
+                </div>
+
+                <div class="bg-slate-800/50 border border-purple-500/50 rounded-xl p-6 text-center hover:border-purple-400 hover:bg-slate-800 transition-all duration-300 group">
+                    <span class="text-4xl mb-4 block transform group-hover:scale-110 transition-transform">🤖</span>
+                    <h3 class="text-white font-semibold text-lg">IA Aplicada</h3>
+                    <p class="text-sm text-slate-400 mt-2">Optimización, pruebas y docs con IA</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 px-4 bg-slate-800/20">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8">
+            
+            <div class="md:w-2/3 bg-slate-900 border border-slate-700/50 rounded-2xl p-8 shadow-xl">
+                <h3 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                    <span>⚡</span> Habilidades Diferenciadoras
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="flex items-start gap-3">
+                        <span class="text-blue-400 mt-1">✔</span>
+                        <p class="text-slate-300"><strong class="text-white">Adaptabilidad:</strong> Capacidad de aprender rápido nuevas herramientas.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-blue-400 mt-1">✔</span>
+                        <p class="text-slate-300"><strong class="text-white">Trabajo en Equipo:</strong> Comunicación asertiva y colaboración.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-blue-400 mt-1">✔</span>
+                        <p class="text-slate-300"><strong class="text-white">Resolución de Problemas:</strong> Enfoque lógico y analítico.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-blue-400 mt-1">✔</span>
+                        <p class="text-slate-300"><strong class="text-white">Autoaprendizaje:</strong> Motivación por la mejora continua.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:w-1/3 bg-slate-900 border border-slate-700/50 rounded-2xl p-8 shadow-xl flex flex-col justify-center items-center text-center">
+                <span class="text-5xl mb-4">🌎</span>
+                <h3 class="text-xl font-bold text-white mb-2">Inglés</h3>
+                <div class="bg-blue-500/20 text-blue-300 border border-blue-500/30 px-4 py-1 rounded-full font-semibold mb-3">
+                    Nivel A2 (Básico)
+                </div>
+                <p class="text-slate-400 text-sm">Actualmente en proceso de aprendizaje y mejora activa para dominar documentación técnica.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="proyectos" class="py-20 px-4 bg-slate-800/30">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
+                Proyectos <span class="text-blue-400">Destacados</span>
+            </h2>
+
+            <div class="bg-slate-900 border border-slate-700/50 rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row group transition-all duration-300 hover:border-blue-500/50">
+                
+                <div class="md:w-1/2 overflow-hidden bg-slate-800 flex items-center justify-center p-8 min-h-[300px] md:min-h-full">
+                  <img src="img/clip-techs.png" alt="Clip Techs System" loading="lazy" class="max-w-full max-h-full object-contain transform group-hover:scale-105 transition-transform duration-500 rounded-2xl shadow-2xl">
+                </div>
+
+                <div class="md:w-1/2 p-10 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="text-blue-400 text-sm font-bold uppercase tracking-wider">Desarrollo Full-Stack</span>
+                        </div>
+                        
+                        <h3 class="text-3xl font-bold text-white mb-6">Clip Techs System</h3>
+                        
+                        <div class="flex flex-wrap gap-3 mb-8">
+                            <span class="bg-indigo-500/20 text-indigo-300 text-xs font-semibold px-3 py-1.5 rounded-full border border-indigo-500/30">PHP</span>
+                            <span class="bg-cyan-500/20 text-cyan-300 text-xs font-semibold px-3 py-1.5 rounded-full border border-cyan-500/30">MySQL</span>
+                            <span class="bg-yellow-500/20 text-yellow-300 text-xs font-semibold px-3 py-1.5 rounded-full border border-cyan-500/30">JS</span>
+                            <span class="bg-slate-700 text-slate-300 text-xs font-semibold px-3 py-1.5 rounded-full border border-slate-600">MVC</span>
+                        </div>
+
+                        <p class="text-lg text-slate-300 mb-6 leading-relaxed">
+                            Plataforma web intuitiva diseñada para la automatización y gestión eficiente de citas, clientes y servicios en peluquerías, optimizando tiempos de administración mediante una arquitectura escalable.
+                        </p>
+
+                        <button id="btn_abrir_modal" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg shadow-lg cursor-pointer transition-colors inline-flex gap-2 items-center mb-10 w-full justify-center">
+                            Ver detalles del proyecto
+                        </button>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row gap-4 border-t border-slate-700/50 pt-6 mt-auto">
+                        <a href="https://proyectoclip-cc47206976f7.herokuapp.com" target="_blank" class="flex-1 bg-slate-800 hover:bg-slate-700 text-white text-center font-semibold py-2 px-4 rounded-lg border border-slate-600 transition-colors">
+                            Ver Proyecto
+                        </a>
+                        <a href="https://github.com/Harolmaldonado0719/Proyecto-clip" target="_blank" class="flex-1 bg-slate-800 hover:bg-slate-700 text-white text-center font-semibold py-2 px-4 rounded-lg border border-slate-600 transition-colors flex items-center justify-center gap-2">
+                            <i class="devicon-github-original"></i> Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div id="modal_info" class="fixed inset-0 bg-black/90 z-[100] p-4 flex items-center justify-center hidden transition-opacity duration-300">
+    <div class="bg-slate-900 border border-slate-700/50 rounded-3xl max-w-2xl w-full max-h-[90vh] p-10 shadow-2xl flex flex-col overflow-hidden">
+            
+            <div class="flex items-center justify-between mb-8 border-b border-slate-700/50 pb-6">
+                <h3 class="text-3xl font-bold text-white">Detalles del Proyecto</h3>
+                <button id="btn_cerrar_modal_1" class="text-slate-500 hover:text-white cursor-pointer transition-colors text-2xl font-bold px-2 py-1">
+                    ✕
+                </button>
+            </div>
+
+            <div class="overflow-y-auto pr-4 mb-8 text-slate-300 text-base leading-relaxed space-y-4">
+                <h4 class="text-2xl font-semibold text-blue-400 mb-3">Clip Techs System</h4>
+                <p>Proyecto de desarrollo de software enfocado en la gestión y administración de peluquerías y negocios del sector estético, diseñado con el objetivo de optimizar procesos administrativos y mejorar la organización de la información mediante una plataforma web intuitiva y eficiente.</p>
+                <p>Surge como solución para centralizar tareas manuales: administración de clientes, programación de citas y organización de servicios. Durante el desarrollo se realizó un proceso completo de ingeniería: análisis de requerimientos, casos de uso, wireframes, mapas de navegación y modelado de bases de datos relacionales.</p>
+                
+                <h5 class="text-xl font-semibold text-white mt-8 mb-4 border-t border-slate-700/50 pt-4">Arquitectura y Tecnología</h5>
+                <p>Implementación técnica basada en el patrón <strong>MVC (Modelo–Vista–Controlador)</strong> para garantizar escalabilidad.</p>
+                <ul class="list-disc pl-6 space-y-2 text-slate-400">
+                    <li><strong class="text-slate-300">PHP & MySQL:</strong> Lógica del sistema, procesamiento y persistencia de datos relacionales.</li>
+                    <li><strong class="text-slate-300">Frontend:</strong> HTML5, CSS3, JavaScript y Materialize CSS.</li>
+                    <li><strong class="text-slate-300">Diseño:</strong> Balsamiq Mockups para prototipado.</li>
+                </ul>
+
+                <h5 class="text-xl font-semibold text-white mt-8 mb-4 border-t border-slate-700/50 pt-4">Características principales</h5>
+                <ul class="list-none space-y-2 text-slate-400">
+                    <li>✔ Gestión avanzada de clientes y servicios.</li>
+                    <li>✔ Administración y programación dinámica de citas.</li>
+                    <li>✔ Diseño enfocado en experiencia de usuario y accesibilidad.</li>
+                </ul>
+            </div>
+
+            <button id="btn_cerrar_modal_2" class="mt-auto bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 px-6 rounded-lg border border-slate-700/50 cursor-pointer transition-colors w-full text-center">
+                Ocultar Detalles
+            </button>
+        </div>
+    </div>
+
+
+<section id="contacto" class="py-20 px-4">
+        <div class="max-w-3xl mx-auto bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700 rounded-3xl p-10 text-center shadow-2xl relative overflow-hidden">
+            
+            <div class="absolute -top-24 -right-24 w-48 h-48 bg-blue-500 rounded-full blur-3xl opacity-20"></div>
+            
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 relative z-10">
+                ¿Listo para hacer equipo?
+            </h2>
+            <p class="text-slate-300 mb-10 text-lg relative z-10 max-w-xl mx-auto">
+                Estoy buscando oportunidades para realizar mi etapa productiva (contrato de aprendizaje). Si buscas un talento backend enfocado en soluciones reales, hablemos.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-5 justify-center relative z-10">
+                
+                <a href="https://wa.me/573017678950?text=Hola%20Harol,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20contactarte." target="_blank" class="bg-green-600 hover:bg-green-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg shadow-green-500/30 transition-all duration-300 flex items-center justify-center gap-3">
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.101.824zm-3.392-10.416c-4.286 0-7.766 3.48-7.766 7.767 0 1.36.351 2.686 1.02 3.864l-1.28 4.674 4.792-1.258c1.135.617 2.42 .943 3.731.944 4.286 0 7.766-3.48 7.766-7.767 0-4.287-3.48-7.767-7.763-7.767z"/></svg>
+                    WhatsApp
+                </a>
+
+                <a href="docs/Cv.Harol_Daniel_Maldonado.pdf" download="CV_Harol_Daniel_Maldonado.pdf" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 px-8 rounded-lg border border-slate-600 transition-all duration-300 flex items-center justify-center gap-3">
+                    <svg class="w-6 h-6 text-slate-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    Descargar CV
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-slate-900 border-t border-slate-800 py-8 text-center">
+        <p class="text-slate-500 text-sm">
+            © 2026 Harol Daniel Maldonado. Desarrollado con lógica y café. ☕
+        </p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>
